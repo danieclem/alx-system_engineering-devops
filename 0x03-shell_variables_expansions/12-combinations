@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..b}{a..b} | tr ' ' '\n' | gre -v '00'
+echo {a..b}{a..b} | tr ' ' '\n' | grep -v '00'
